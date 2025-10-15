@@ -28,9 +28,7 @@ const Contact = () => {
 
     // Simulate form submission
     setTimeout(() => {
-      setSubmitMessage(
-        "Thank you for your message! I'll get back to you soon."
-      );
+      setSubmitMessage("Thank you for your message! I get back to you soon.");
       setFormData({ name: "", email: "", subject: "", message: "" });
       setIsSubmitting(false);
     }, 1000);
@@ -113,7 +111,7 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Have a project in mind or just want to chat? I'd love to hear from
+            Have a project in mind or just want to chat? I love to hear from
             you.
           </p>
         </div>
@@ -122,10 +120,10 @@ const Contact = () => {
           {/* Contact Information */}
           <div>
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
-              Let's Connect
+              Lets Connect
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mb-8">
-              I'm always interested in new opportunities and exciting projects.
+              I always interested in new opportunities and exciting projects.
               Whether you have a question or just want to say hi, feel free to
               reach out!
             </p>
@@ -262,7 +260,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-800 dark:text-white"
-                  placeholder="What's this about?"
+                  placeholder="Whats this about?"
                 />
               </div>
 

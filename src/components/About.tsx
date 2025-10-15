@@ -42,7 +42,7 @@ const About = () => {
             </h3>
             <div className="space-y-4 text-gray-600 dark:text-gray-300">
               <p>
-                I'm a passionate full-stack developer with a love for creating
+                I a passionate full-stack developer with a love for creating
                 innovative web solutions. My journey in tech started with
                 curiosity about how websites work, and it has evolved into a
                 career dedicated to building meaningful digital experiences.
@@ -50,15 +50,15 @@ const About = () => {
               <p>
                 I enjoy working with modern technologies and frameworks, always
                 staying up-to-date with the latest trends and best practices.
-                When I'm not coding, you can find me exploring new technologies,
+                When I not coding, you can find me exploring new technologies,
                 contributing to open-source projects, or sharing knowledge with
                 the developer community.
               </p>
               <p>
                 I believe in writing clean, maintainable code and creating
                 applications that not only work well but also provide excellent
-                user experiences. I'm always excited to take on new challenges
-                and collaborate with like-minded individuals.
+                user experiences. I always excited to take on new challenges and
+                collaborate with like-minded individuals.
               </p>
             </div>
           </div>
