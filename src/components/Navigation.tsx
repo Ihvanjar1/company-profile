@@ -37,7 +37,7 @@ const Navigation = () => {
               onClick={() => scrollToSection("hero")}
               className="text-xl font-bold text-gray-900 dark:text-white hover:text-blue-600 transition-colors"
             >
-              Ihvanjar
+              FAMUHI
             </button>
           </div>
 

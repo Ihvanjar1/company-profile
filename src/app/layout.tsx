@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Developer Profile | Ihvanjar",
+  title: "Famuhi | Web Developer",
   description:
     "Full-stack developer passionate about creating innovative web solutions",
 };

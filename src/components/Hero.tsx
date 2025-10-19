@@ -36,7 +36,7 @@ const Hero = () => {
             <div className="relative inline-block">
               <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/profile.jpg"
+                  src="/boy.png"
                   alt="Ihvanjar Profile"
                   width={128}
                   height={128}
@@ -52,7 +52,7 @@ const Hero = () => {
           </div>
 
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
-            Hi, I <span className="text-blue-600">Ihvanjar</span>
+            Hi, I`am <span className="text-blue-600">Famuhi</span>
           </h1>
 
           <div className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 h-8">
