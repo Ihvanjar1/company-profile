@@ -52,7 +52,7 @@ const About = () => {
                 We specialize in modern web technologies and frameworks, always
                 staying up-to-date with the latest trends and best practices.
                 Our team is committed to delivering high-quality solutions that
-                meet our clients' needs and exceed their expectations.
+                meet our clients` needs and exceed their expectations.
               </p>
               <p>
                 We believe in writing clean, maintainable code and creating
