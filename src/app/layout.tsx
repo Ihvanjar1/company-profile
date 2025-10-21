@@ -13,9 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Famuhi | Web Developer",
+  title: "Famuhi Solutions | Web Development Company",
   description:
-    "Full-stack developer passionate about creating innovative web solutions",
+    "Professional web development company specializing in innovative software solutions, modern web applications, and digital experiences",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({

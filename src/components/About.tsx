@@ -27,38 +27,38 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            About Me
+            About Us
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Get to know more about my journey, skills, and passion for
-            technology
+            Learn more about our company, expertise, and commitment to
+            delivering exceptional web solutions
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
-              My Story
+              Our Story
             </h3>
             <div className="space-y-4 text-gray-600 dark:text-gray-300">
               <p>
-                I a passionate full-stack developer with a love for creating
-                innovative web solutions. My journey in tech started with
-                curiosity about how websites work, and it has evolved into a
-                career dedicated to building meaningful digital experiences.
+                Famuhi Solutions is a professional web development company
+                passionate about creating innovative software solutions. Our
+                journey in tech started with curiosity about how websites work,
+                and it has evolved into a company dedicated to building
+                meaningful digital experiences.
               </p>
               <p>
-                I enjoy working with modern technologies and frameworks, always
+                We specialize in modern web technologies and frameworks, always
                 staying up-to-date with the latest trends and best practices.
-                When I not coding, you can find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                Our team is committed to delivering high-quality solutions that
+                meet our clients' needs and exceed their expectations.
               </p>
               <p>
-                I believe in writing clean, maintainable code and creating
+                We believe in writing clean, maintainable code and creating
                 applications that not only work well but also provide excellent
-                user experiences. I always excited to take on new challenges and
-                collaborate with like-minded individuals.
+                user experiences. We are always excited to take on new
+                challenges and collaborate with forward-thinking businesses.
               </p>
             </div>
           </div>

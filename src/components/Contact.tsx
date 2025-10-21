@@ -108,11 +108,11 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Get In Touch
+            Hubungi Saya
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Have a project in mind or just want to chat? I love to hear from
-            you.
+            Punya proyek di pikiran atau hanya ingin mengobrol? Saya senang
+            mendengar dari Anda.
           </p>
         </div>
 
@@ -120,12 +120,12 @@ const Contact = () => {
           {/* Contact Information */}
           <div>
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
-              Lets Connect
+              Mari Terhubung
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mb-8">
-              I always interested in new opportunities and exciting projects.
-              Whether you have a question or just want to say hi, feel free to
-              reach out!
+              Saya selalu tertarik dengan peluang baru dan proyek yang menarik.
+              Apakah Anda memiliki pertanyaan atau hanya ingin mendiskusikan
+              proyek berikutnya, jangan ragu untuk menghubungi saya!
             </p>
 
             <div className="space-y-6">
@@ -152,7 +152,7 @@ const Contact = () => {
             {/* Social Links */}
             <div className="mt-8">
               <h4 className="text-lg font-medium text-gray-900 dark:text-white mb-4">
-                Follow Me
+                Ikuti Saya
               </h4>
               <div className="flex space-x-4">
                 <a
@@ -212,7 +212,7 @@ const Contact = () => {
                   htmlFor="name"
                   className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
                 >
-                  Name
+                  Nama
                 </label>
                 <input
                   type="text"
@@ -222,7 +222,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-800 dark:text-white"
-                  placeholder="Your name"
+                  placeholder="Nama Anda"
                 />
               </div>
 
@@ -250,7 +250,7 @@ const Contact = () => {
                   htmlFor="subject"
                   className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
                 >
-                  Subject
+                  Subjek
                 </label>
                 <input
                   type="text"
@@ -260,7 +260,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-800 dark:text-white"
-                  placeholder="Whats this about?"
+                  placeholder="Apa tentang ini?"
                 />
               </div>
 
@@ -269,7 +269,7 @@ const Contact = () => {
                   htmlFor="message"
                   className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
                 >
-                  Message
+                  Pesan
                 </label>
                 <textarea
                   id="message"
@@ -279,7 +279,7 @@ const Contact = () => {
                   required
                   rows={5}
                   className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-800 dark:text-white resize-none"
-                  placeholder="Tell me about your project or just say hello..."
+                  placeholder="Ceritakan tentang proyek Anda atau hanya ingin mengobrol..."
                 />
               </div>
 
