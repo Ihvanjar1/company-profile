@@ -1,24 +1,24 @@
 const About = () => {
   const experiences = [
     {
-      year: "2023 - Present",
-      title: "Full-Stack Developer",
-      company: "Tech Company",
+      year: "2023 - Sekarang",
+      title: "Pengembang Full-Stack",
+      company: "Perusahaan Teknologi",
       description:
-        "Developing modern web applications using React, Next.js, and Node.js.",
+        "Mengembangkan aplikasi web modern menggunakan React, Next.js, dan Node.js.",
     },
     {
       year: "2022 - 2023",
-      title: "Frontend Developer",
+      title: "Pengembang Frontend",
       company: "Startup Inc",
       description:
-        "Built responsive user interfaces and improved user experience.",
+        "Membangun antarmuka pengguna responsif dan meningkatkan pengalaman pengguna.",
     },
     {
       year: "2021 - 2022",
-      title: "Junior Developer",
-      company: "Digital Agency",
-      description: "Learned and applied modern web development practices.",
+      title: "Pengembang Junior",
+      company: "Agensi Digital",
+      description: "Belajar dan menerapkan praktik pengembangan web modern.",
     },
   ];
 
@@ -27,45 +27,47 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            About Us
+            Tentang Kami
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Learn more about our company, expertise, and commitment to
-            delivering exceptional web solutions
+            Pelajari lebih lanjut tentang perusahaan kami, keahlian, dan
+            komitmen untuk memberikan solusi web yang luar biasa
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
-              Our Story
+              Cerita Kami
             </h3>
             <div className="space-y-4 text-gray-600 dark:text-gray-300">
               <p>
-                Famuhi Solutions is a professional web development company
-                passionate about creating innovative software solutions. Our
-                journey in tech started with curiosity about how websites work,
-                and it has evolved into a company dedicated to building
-                meaningful digital experiences.
+                Famuhi Solutions adalah perusahaan pengembangan web profesional
+                yang bersemangat dalam menciptakan solusi perangkat lunak
+                inovatif. Perjalanan kami di bidang teknologi dimulai dengan
+                rasa ingin tahu tentang cara kerja situs web, dan telah
+                berkembang menjadi perusahaan yang berdedikasi untuk membangun
+                pengalaman digital yang bermakna.
               </p>
               <p>
-                We specialize in modern web technologies and frameworks, always
-                staying up-to-date with the latest trends and best practices.
-                Our team is committed to delivering high-quality solutions that
-                meet our clients` needs and exceed their expectations.
+                Kami spesialis dalam teknologi dan kerangka kerja web modern,
+                selalu mengikuti tren dan praktik terbaik terkini. Tim kami
+                berkomitmen untuk memberikan solusi berkualitas tinggi yang
+                memenuhi kebutuhan klien dan melampaui ekspektasi mereka.
               </p>
               <p>
-                We believe in writing clean, maintainable code and creating
-                applications that not only work well but also provide excellent
-                user experiences. We are always excited to take on new
-                challenges and collaborate with forward-thinking businesses.
+                Kami percaya pada penulisan kode yang bersih dan dapat
+                dipelihara serta menciptakan aplikasi yang tidak hanya berfungsi
+                dengan baik tetapi juga memberikan pengalaman pengguna yang luar
+                biasa. Kami selalu bersemangat untuk mengambil tantangan baru
+                dan berkolaborasi dengan bisnis yang berpikir maju.
               </p>
             </div>
           </div>
 
           <div>
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
-              Experience
+              Pengalaman
             </h3>
             <div className="space-y-6">
               {experiences.map((exp, index) => (
@@ -95,19 +97,19 @@ const About = () => {
             <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg">
               <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
               <div className="text-gray-600 dark:text-gray-300">
-                Projects Completed
+                Proyek Selesai
               </div>
             </div>
             <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg">
               <div className="text-3xl font-bold text-blue-600 mb-2">3+</div>
               <div className="text-gray-600 dark:text-gray-300">
-                Years Experience
+                Tahun Pengalaman
               </div>
             </div>
             <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg">
               <div className="text-3xl font-bold text-blue-600 mb-2">100%</div>
               <div className="text-gray-600 dark:text-gray-300">
-                Client Satisfaction
+                Kepuasan Klien
               </div>
             </div>
           </div>

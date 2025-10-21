@@ -44,17 +44,21 @@ const Navigation = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              {["hero", "about", "skills", "projects", "contact"].map(
-                (section) => (
-                  <button
-                    key={section}
-                    onClick={() => scrollToSection(section)}
-                    className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200 capitalize"
-                  >
-                    {section}
-                  </button>
-                )
-              )}
+              {[
+                { id: "hero", label: "Beranda" },
+                { id: "about", label: "Tentang" },
+                { id: "skills", label: "Keterampilan" },
+                { id: "projects", label: "Proyek" },
+                { id: "contact", label: "Kontak" },
+              ].map((item) => (
+                <button
+                  key={item.id}
+                  onClick={() => scrollToSection(item.id)}
+                  className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200"
+                >
+                  {item.label}
+                </button>
+              ))}
             </div>
           </div>
 
@@ -95,17 +99,21 @@ const Navigation = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white dark:bg-gray-900 shadow-lg">
-            {["hero", "about", "skills", "projects", "contact"].map(
-              (section) => (
-                <button
-                  key={section}
-                  onClick={() => scrollToSection(section)}
-                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors w-full text-left capitalize"
-                >
-                  {section}
-                </button>
-              )
-            )}
+            {[
+              { id: "hero", label: "Beranda" },
+              { id: "about", label: "Tentang" },
+              { id: "skills", label: "Keterampilan" },
+              { id: "projects", label: "Proyek" },
+              { id: "contact", label: "Kontak" },
+            ].map((item) => (
+              <button
+                key={item.id}
+                onClick={() => scrollToSection(item.id)}
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors w-full text-left"
+              >
+                {item.label}
+              </button>
+            ))}
           </div>
         </div>
       )}

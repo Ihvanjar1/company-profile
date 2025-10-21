@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState("");
-  const fullText = "Web developer & Software Engineer";
+  const fullText = "Web Developer & Software Engineer";
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -52,7 +52,8 @@ const Hero = () => {
           </div>
 
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
-            Halo, Kami <span className="text-blue-600">Famuhi Solutions</span>
+            Selamat Datang di{" "}
+            <span className="text-blue-600">Famuhi Solutions</span>
           </h1>
 
           <div className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 h-8">
