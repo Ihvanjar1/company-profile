@@ -1,24 +1,12 @@
 const About = () => {
   const experiences = [
     {
-      year: "2023 - Sekarang",
-      title: "Pengembang Full-Stack",
-      company: "Perusahaan Teknologi",
+      year: "Harga Promo: Rp 700.000",
+      title: "Paket Website Landing Page",
+      company: "Gratis Domain .my.id",
+
       description:
-        "Mengembangkan aplikasi web modern menggunakan React, Next.js, dan Node.js.",
-    },
-    {
-      year: "2022 - 2023",
-      title: "Pengembang Frontend",
-      company: "Startup Inc",
-      description:
-        "Membangun antarmuka pengguna responsif dan meningkatkan pengalaman pengguna.",
-    },
-    {
-      year: "2021 - 2022",
-      title: "Pengembang Junior",
-      company: "Agensi Digital",
-      description: "Belajar dan menerapkan praktik pengembangan web modern.",
+        "Pembuatan website landing page responsif dengan desain modern, SEO friendly, dan gratis domain .my.id.",
     },
   ];
 
@@ -38,7 +26,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
-              Cerita Kami
+              Tentang Kami
             </h3>
             <div className="space-y-4 text-gray-600 dark:text-gray-300">
               <p>
@@ -62,12 +50,19 @@ const About = () => {
                 biasa. Kami selalu bersemangat untuk mengambil tantangan baru
                 dan berkolaborasi dengan bisnis yang berpikir maju.
               </p>
+              <p>
+                Bagi Kami, pengembangan perangkat lunak bukan hanya tentang
+                menulis kode, tetapi juga tentang memahami kebutuhan pengguna
+                dan menciptakan pengalaman yang memberikan nilai nyata. Saya
+                selalu berusaha menulis kode yang bersih, terstruktur, dan mudah
+                dipelihara.
+              </p>
             </div>
           </div>
 
           <div>
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
-              Pengalaman
+              Promo Murah Pembuatan Website
             </h3>
             <div className="space-y-6">
               {experiences.map((exp, index) => (
