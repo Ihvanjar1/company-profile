@@ -1,39 +1,6 @@
 "use client";
 
-import { useState } from "react";
-
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
-
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitMessage, setSubmitMessage] = useState("");
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-
-    // Simulate form submission
-    setTimeout(() => {
-      setSubmitMessage("Thank you for your message! I get back to you soon.");
-      setFormData({ name: "", email: "", subject: "", message: "" });
-      setIsSubmitting(false);
-    }, 1000);
-  };
-
   const contactInfo = [
     {
       icon: (
@@ -72,8 +39,8 @@ const Contact = () => {
         </svg>
       ),
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
+      value: "+62 895-3830-48802",
+      href: "tel:+628953830-48802",
     },
     {
       icon: (
@@ -98,7 +65,8 @@ const Contact = () => {
         </svg>
       ),
       title: "Location",
-      value: "Jakarta, Indonesia",
+      value:
+        "Jl. Rumah Sakit No. 1, Karangendep, Kedunggede, Banyumas, Jawa Tengah, Indonesia",
       href: "#",
     },
   ];
@@ -150,7 +118,7 @@ const Contact = () => {
             </div>
 
             {/* Social Links */}
-            <div className="mt-8">
+            {/* <div className="mt-8">
               <h4 className="text-lg font-medium text-gray-900 dark:text-white mb-4">
                 Ikuti Saya
               </h4>
@@ -198,105 +166,21 @@ const Contact = () => {
                   </svg>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
 
-          {/* Contact Form */}
+          {/* Google Maps */}
           <div>
-            <form
-              onSubmit={handleSubmit}
-              className="bg-white dark:bg-gray-900 p-8 rounded-lg shadow-lg"
-            >
-              <div className="mb-6">
-                <label
-                  htmlFor="name"
-                  className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
-                >
-                  Nama
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-800 dark:text-white"
-                  placeholder="Nama Anda"
-                />
-              </div>
-
-              <div className="mb-6">
-                <label
-                  htmlFor="email"
-                  className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
-                >
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-800 dark:text-white"
-                  placeholder="your.email@example.com"
-                />
-              </div>
-
-              <div className="mb-6">
-                <label
-                  htmlFor="subject"
-                  className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
-                >
-                  Subjek
-                </label>
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  value={formData.subject}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-800 dark:text-white"
-                  placeholder="Apa tentang ini?"
-                />
-              </div>
-
-              <div className="mb-6">
-                <label
-                  htmlFor="message"
-                  className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
-                >
-                  Pesan
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  rows={5}
-                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-800 dark:text-white resize-none"
-                  placeholder="Ceritakan tentang proyek Anda atau hanya ingin mengobrol..."
-                />
-              </div>
-
-              <button
-                type="submit"
-                disabled={isSubmitting}
-                className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors font-medium disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                {isSubmitting ? "Sending..." : "Send Message"}
-              </button>
-
-              {submitMessage && (
-                <div className="mt-4 p-4 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-lg">
-                  {submitMessage}
-                </div>
-              )}
-            </form>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.5!2d109.3!3d-7.4!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a8b8b8b8b8b8b%3A0x8b8b8b8b8b8b8b8b!2sJl.%20Rumah%20Sakit%20No.%201%2C%20Karangendep%2C%20Kedunggede%2C%20Banyumas%2C%20Jawa%20Tengah%2C%20Indonesia!5e0!3m2!1sen!2sid!4v1234567890!5m2!1sen!2sid"
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="rounded-lg shadow-lg"
+            ></iframe>
           </div>
         </div>
       </div>
